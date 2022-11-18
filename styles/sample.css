@@ -1,0 +1,43 @@
+/* Body */
+.blur {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Container */
+
+.sample {
+    position: fixed;
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Image sections */
+.sample-content {
+    width: 70%;
+    height: 100%;
+    margin: 20px auto;
+}
+
+.sample-content img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+}
+
+
+@media screen and (max-width: 800px) {
+    .sample {
+        width: 80%;
+        height: auto;
+    }
+
+    .sample-content {
+        width: 90%;
+    }
+   
+}

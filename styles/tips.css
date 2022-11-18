@@ -1,0 +1,44 @@
+/* Body */
+.blur {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+/* Container */
+
+.tips {
+    position: fixed;
+    width: 40%;
+    height: auto;
+    background-color: rgba(0, 0, 0, .9);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px;
+}
+
+.tips-content {
+    width: 90%;
+    height: 100%;
+    margin: 20px auto;
+    color:white;
+}
+
+.tips-content h2 {
+    text-align: center;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+}
+
+.tips-content li {
+    font-size: clamp(0.9rem, 1.2vw, 1.2rem);
+    padding: 5px 0;
+}
+
+@media screen and (max-width: 800px) {
+    .tips {
+        width: 80%;
+        height: auto;
+    }
+    .tips-content {
+        width: 90%;
+    }
+}

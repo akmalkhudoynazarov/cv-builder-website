@@ -1,0 +1,31 @@
+{
+    "fontawesomeregular": {
+        "normal": "fontawesomeregular_normal_f9f82a8d67ce68a54aadcd220317113f"
+    },
+    "fontawesomebrands": {
+        "normal": "fontawesomebrands_normal_511be80956dd12396274257652f25b3b"
+    },
+    "fontawesomesolid": {
+        "bold": "fontawesomesolid_bold_edf46fab0f27ea184250069f85b7eb1b"
+    },
+    "fontawesome3": {
+        "normal": "fontawesome3_normal_a07c54af815ea54af1b5e5aa13cc5f8b"
+    },
+    "font awesome 6 brands": {
+        "normal": "font_awesome_6_brands_normal_ba95da0e0ed26cb50aa2f3bfa6de4224"
+    },
+    "font awesome 6 free": {
+        "normal": "\/opt\/lampp\/htdocs\/pdf\/dompdf\/vendor\/dompdf\/dompdf\/lib\/fonts\/font_awesome_6_free_normal_d14e05f732166b536c9f3e3c128da324",
+        "900": "font_awesome_6_free_900_fc6b653d35d5d856773a176618f15b8a"
+    },
+    "font awesome 5 brands": {
+        "normal": "font_awesome_5_brands_normal_ba95da0e0ed26cb50aa2f3bfa6de4224"
+    },
+    "font awesome 5 free": {
+        "900": "\/opt\/lampp\/htdocs\/pdf\/dompdf\/vendor\/dompdf\/dompdf\/lib\/fonts\/font_awesome_5_free_900_fc6b653d35d5d856773a176618f15b8a",
+        "normal": "font_awesome_5_free_normal_d14e05f732166b536c9f3e3c128da324"
+    },
+    "fontawesome": {
+        "normal": "fontawesome_normal_e1a313ca83905f53a32ee29693775520"
+    }
+}

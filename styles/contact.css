@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background: url(../images/wesley.jpg); */
+    background-color: rgba(255,165,0,.7);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Merriweather', serif;
+}
+h1{
+    text-align: center;
+    font-size: clamp(2rem, 3vw, 3rem);
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: white;
+}
+p{
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 1);
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+
+.container{
+    width: 35%;
+    margin: 30px auto;
+}
+
+@media screen and (max-width: 950px) {
+    .container{
+        width: 80%;
+    }
+    
+}
+
+input, textarea{
+    font-size: 18px;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 5px;
+    outline: none;
+    resize: none;
+    font-family: 'Merriweather', serif;
+}
+h5{
+    color: rgba(255, 255, 255, 1);
+}
+input[type=submit]{
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.checked:hover{
+    color: white;
+    
+}
+
+input[type=checkbox]{
+    display: inline-block;
+    width: 20px;
+    margin-bottom: 10px;
+    box-shadow: none;
+    height: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+    
+}
+form div{
+    display: flex;
+    align-items: top;
+    padding: 3px 0;
+}
+
+.error{
+    color: black;
+}
+.success{
+    color: white;
+}
+
+/* Back button */
+.back-btn{
+    margin: 10px;
+    display: inline-block;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 20px;
+    padding: 6px 10px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: rgba(0,0,0,0.7);
+}
+.back-btn:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.back-btn i{
+    margin-right: 5px;
+    
+}
